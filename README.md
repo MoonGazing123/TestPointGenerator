@@ -35,3 +35,4 @@ TPG 是一个轻量级的测试点生成工具，通过图形界面帮助出题�
 
 ## 如何下载
 
+[![Download](https://img.shields.io/badge/Download-Latest-blue.svg)](https://github.com/MoonGazing123/TestPointGenerator/releases/latest)
