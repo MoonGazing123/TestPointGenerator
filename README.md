@@ -1,44 +1,32 @@
 # TestPointGenerator
-> 基于各大OJ平台的测试点生成器
+
+> 一个带图形界面的测试点生成器，帮助 OI 出题人快速生成比赛数据。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://python.org)
-[![CI](https://github.com/MoonGazing123/TestPointGenerator/actions/workflows/python-package.yml/badge.svg)](https://github.com/MoonGazing123/TestPointGenerator/actions)
 
-> 作者洛谷主页：[Moon_Gazing](https://www.luogu.com.cn/user/2180402)
+## ✨ 功能特点
 
----
+- 🖥️ **图形化界面**：无需编写任何代码，全程鼠标操作
+- 📊 **多种数据类型**：支持整数、浮点数、字符串、字符、布尔值
+- 🎯 **灵活的参数配置**：每个变量可独立设置范围、长度、字符集等
+- 🚀 **一键生成与打包**：自动调用 `std.exe` 生成输出，并打包为 `.zip`
+- 📦 **开源免费**：基于 MIT 协议开源
 
-## 简介
+## 🚀 快速开始
 
-TestPointGenerator（以下简称TPG） 是一个轻量级的测试点生成工具，通过图形界面帮助出题人快速生成`.in`/`.out`测试文件，并打包成`.zip`格式
+### 方式一：下载 exe 文件（推荐）
+1. 访问 [Releases](https://github.com/MoonGazing123/TestPointGenerator/releases) 页面
+2. 下载 `TestPointGenerator_v2.0.0.exe`
+3. 双击运行即可
 
----
+### 方式二：从源码运行
+```bash
+git clone https://github.com/MoonGazing123/TestPointGenerator.git
+cd TestPointGenerator
+pip install -r requirements.txt
+python main.py
+```
 
-## 使用手册
-
-[[如何使用TPG](USEGE.md)]
-
----
-
-## 它拥有的优势
-
-洛谷曾推出过Python的测试点生成库CYaRon，此库为出题者生成测试数据提供了很大的便利，但此库的门槛较高，仅有小部分出题人能熟练使用。而TPG的诞生解决了这个问题
-
-它的优势在于：
-
-- **包含GUI界面**：没有任何的代码门槛，仅需动动手就可以生成测试数据
-- **一键打包**：生成的测试数据会自动打包成`.zip`文件，可直接适配洛谷等OJ的测试数据上传。
-- **范围灵活控制**：支持变量+范围的灵活配置。
-
----
-
-## 软件内截图
-
-![软件内截图](figures/Screen.png)
-
----
-
-## 如何下载
-
-[![Download](https://img.shields.io/badge/Download-Latest-blue.svg)](https://github.com/MoonGazing123/TestPointGenerator/releases/latest)
+## 使用说明
+详细步骤请查看
