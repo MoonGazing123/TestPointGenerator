@@ -32,7 +32,7 @@ python main.py
 详细步骤请查看[使用手册](USEGE.md)
 
 ## 许可证
-本项目采用[MIT License](License.md)授权
+本项目采用[MIT License](LICENSE)授权
 
 ## 致谢
 - [CYaRon](https://github.com/luogu-dev/cyaron) —— 本项目的灵感来源
